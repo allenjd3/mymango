@@ -72,3 +72,5 @@ end
 gem "solid_queue", "~> 0.2.1"
 
 gem "devise", "~> 4.9"
+
+gem "view_component", "~> 3.10"
