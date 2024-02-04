@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   root to: 'home#index'
   get 'blogs/:id', to: 'home#show', as: 'home_show'
+  get 'about', to: 'home#about', as: 'about'
+  get 'contact', to: 'home#contact', as: 'contact'
 
   devise_for :users, skip: :registration
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
