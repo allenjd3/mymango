@@ -55,6 +55,7 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
+  gem "ruby-lsp-rails", "~> 0.2.9"
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
@@ -74,3 +75,4 @@ gem "solid_queue", "~> 0.2.1"
 gem "devise", "~> 4.9"
 
 gem "view_component", "~> 3.10"
+

@@ -6,4 +6,8 @@ class HomeController < ApplicationController
   def show
     @blog = Blog.find(params[:id])
   end
+
+  def about
+
+  end
 end
