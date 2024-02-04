@@ -5,6 +5,9 @@ Rails.application.routes.draw do
     end
   end
 
+  root to: 'home#index'
+  get 'blogs/:id', to: 'home#show', as: 'home_show'
+
   devise_for :users, skip: :registration
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
