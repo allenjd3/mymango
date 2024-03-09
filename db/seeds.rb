@@ -10,5 +10,5 @@
 
 User.create(
   email: 'jacques2186@yahoo.com',
-  password: Rails.application.credentials.main_user_pw
+  password: 'password'
 )
